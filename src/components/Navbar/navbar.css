@@ -1,12 +1,6 @@
-.logo {
-    object-fit: cover;
-    width: 5rem;
-    height: auto;
-
-}
 .navbar {
     position: sticky;
-    background-color: #fff;
+    background-color: paleturquoise;
     margin: auto;
     top: 0;
     left: 0;
@@ -15,8 +9,14 @@
     align-items: center;
     justify-content: space-between;
     padding: 1.5rem 3.5rem;
-    background-color: var(--bg-color);
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    object-fit: cover;
+    width: 5rem;
+    height: auto;
+
 }
 
 .desktopMenuListItem {
