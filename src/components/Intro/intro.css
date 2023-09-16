@@ -1,5 +1,5 @@
 #intro {
-    height: calc(100vh - 4rem);
+    height: 25rem;
     width: 100vw;
     max-width: 75rem;
     margin: 0 auto;
@@ -58,7 +58,12 @@
 
 @media screen and (max-width:480px) {
     .bg {
-        right: -20vw;
+        right: -10vw;
     }
-   
+    .introContent {
+        font-size: 10vw;
+    }
+    .hello {
+        font-size: 4.5vw;
+    }
 }
