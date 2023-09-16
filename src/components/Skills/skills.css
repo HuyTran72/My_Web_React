@@ -15,6 +15,7 @@
     font-weight: 600;
     padding-top: 3rem;
     margin-bottom: 1.5rem;
+    background-color: rgb(67, 226, 43);
 }
 
 .skillDesc {
@@ -25,7 +26,7 @@
 }
 
 .skillBars {
-    margin: 1.5rem;
+    margin: 1rem;
     width: 100vw;
     max-width: 80%;
     text-align: left;
@@ -41,7 +42,8 @@
 
 .skillBarImg {
     object-fit: cover;
-    height: 3rem;
+    display: flex;
+    height: 4rem;
     width: 4rem;
     margin-right: 2rem;
 }
