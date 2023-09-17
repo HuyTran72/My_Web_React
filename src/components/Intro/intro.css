@@ -8,18 +8,19 @@
 }
 
 .avatar {
-    top: 0;
-    right: 3rem;
-    z-index: -1;
     object-fit: cover;
     height: 30vh;
-    margin: 0 1rem;
+    margin: 1 1rem;
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
 }
 
 .introContent {
     top: 0rem;
     width: 100vw;
     padding: 1.5rem;
+    padding-left: 5rem;
     font-size: 1.5rem;
     font-weight: 400;
     display: flex;

@@ -26,9 +26,3 @@ function App() {
 }
 
 export default App;
-
-{/* <div className="App">
-
-<Experience />
-
-</div> */}

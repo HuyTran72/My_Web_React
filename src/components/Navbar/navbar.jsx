@@ -11,7 +11,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 const LocalNavbar = () => {
     return (
 
-        <Navbar bg="blue" data-bs-theme="blue" expand="sm">
+      <Navbar bg="blue" data-bs-theme="blue" expand="sm">
         <Container>
           <img src={logo} alt="Logo" className='logo' />
           <Nav className="basic-navbar-nav">
@@ -37,20 +37,3 @@ const LocalNavbar = () => {
 }
 
 export default LocalNavbar;
-
-        // <nav className="navbar" >
-        //     <img src={logo} alt="Logo" className='logo' />
-        //     <div className='desktopMenu' >
-        //         <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-100} duration={500} className="desktopMenuListItem">About</Link>
-        //         <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-85} duration={500} className="desktopMenuListItem">Skills</Link>
-        //         <Link activeClass='active' to='experience' spy={true} smooth={true} offset={-85} duration={500} className="desktopMenuListItem">Work Experience</Link>
-        //         <Link activeClass='active' to='projects' spy={true} smooth={true} offset={-85} duration={500} className="desktopMenuListItem">Projects</Link>
-        //         <Link activeClass='active' to='contact' spy={true} smooth={true} offset={-85} duration={500} className="desktopMenuListItem">Contact Me</Link>
-        //     </div>
-        //     <button className="btn" onClick={() => {
-        //         document.getElementById('contact').scrollIntoView({behavior: 'smooth'});
-        //     }} >
-        //         <img src={contactImg} alt='' className='btnimg' />Contact</button> 
-        
-            
-        // </nav>

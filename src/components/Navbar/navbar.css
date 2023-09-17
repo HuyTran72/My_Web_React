@@ -1,16 +1,16 @@
 .navbar {
-    position: sticky;
+    position: sticky !important;
     background-color: paleturquoise;
     margin: auto;
-    top: 0;
-    left: 0;
-    max-width: 90rem;
+    top: 0.75rem;
+    max-width: none;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 1.5rem 3.5rem;
-    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 3px 5px #000;
 }
+
 
 .logo {
     object-fit: cover;

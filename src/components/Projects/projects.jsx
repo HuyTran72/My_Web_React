@@ -41,7 +41,7 @@ const Projects = () => {
                     <h5>Sportify App | Java | <a href="https://github.com/HuyTran72/Sportify_App"> GitHub</a></h5>
                     <ul>
                         <li>Build an app music</li>
-                        <li>Play/Stop/Next/Previous Song</li>
+                        <li>Play/ Stop/ Next/ Previous Song</li>
                         <li>Show the list when finding</li>
                     </ul>
                 </div> 
