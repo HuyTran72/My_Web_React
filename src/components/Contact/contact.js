@@ -5,11 +5,16 @@ import InstagramIcon from '../../assets/instagram.png';
 import GitHubIcon from '../../assets/github.png';
 import LinkedinIcon from '../../assets/linkedin.png';
 import YoutubeIcon from '../../assets/youtube.png';
+import { Container, Row, Col } from 'react-bootstrap';
+
 
 
 const Contact = () => {
   return (
-    <section id="contactPage">
+    <Container>
+      <Row>
+        <Col>
+        <section id="contactPage">
         <div id="contact">
             <h1 className='contactPageTitle'>CONTACT ME</h1>
             <span className="contactDesc">Whether you need me, have feedback or want to discuss any work opportunities, you can contact me any time!</span>
@@ -27,7 +32,11 @@ const Contact = () => {
                 </div>
             </form>
         </div>
-    </section>
+        </section>
+        </Col>
+      </Row>
+    </Container>
+    
   )
 }
 

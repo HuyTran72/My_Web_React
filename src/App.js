@@ -12,14 +12,15 @@ import Container from "react-bootstrap/Container";
 import Button from "react-bootstrap/Button";
 import React, { useState } from "react";
 
+
 function App() {
   return (
     <div className="App">
         <Navbar /> 
         <Intro />
         <Skills />
-
-
+        <Projects />
+        <Contact />
     </div>
   );
 }
@@ -29,6 +30,5 @@ export default App;
 {/* <div className="App">
 
 <Experience />
-<Projects />
-<Contact />
+
 </div> */}

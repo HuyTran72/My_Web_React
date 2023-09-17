@@ -12,9 +12,9 @@
 
 .projectTitle {
     margin: 0 auto;
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 600;
-    padding-top: 3rem;
+    padding-top: 4rem;
     margin-bottom: 1.5rem;
 }
 
@@ -47,6 +47,11 @@
     border-radius: 0.5rem;
     background-color: #cdd8d7;
 }
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
 
 
 

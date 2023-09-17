@@ -13,17 +13,16 @@ const LocalNavbar = () => {
 
         <Navbar bg="blue" data-bs-theme="blue" expand="sm">
         <Container>
-            <img src={logo} alt="Logo" className='logo' />
-
+          <img src={logo} alt="Logo" className='logo' />
+          <Nav className="basic-navbar-nav">
+            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="desktopMenu">
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
-            <Nav.Link href="#home">About</Nav.Link>
-            <Nav.Link href="#link">Skills</Nav.Link>
-            <Nav.Link href="#link">Projects</Nav.Link>
-            <Nav.Link href="#link">Work Experience</Nav.Link>
-            <Nav.Link href="#link">Contact me</Nav.Link>        
+            <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-100} duration={500} className="desktopMenuListItem">About</Link>
+            <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-85} duration={500} className="desktopMenuListItem">Skills</Link>
+            <Link activeClass='active' to='experience' spy={true} smooth={true} offset={-85} duration={500} className="desktopMenuListItem">Work Experience</Link>
+            <Link activeClass='active' to='projects' spy={true} smooth={true} offset={-85} duration={500} className="desktopMenuListItem">Projects</Link>
+            <Link activeClass='active' to='contact' spy={true} smooth={true} offset={-85} duration={500} className="desktopMenuListItem">Contact Me</Link>       
           </Nav>
         </Navbar.Collapse>
             </Nav>
