@@ -11,7 +11,7 @@
 }
 
 .skillTitle {
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 600;
     padding-top: 3rem;
     margin-bottom: 1.5rem;
@@ -52,6 +52,8 @@
     font-weight: 200;
 }
 
+
+
 @media screen and (max-width: 720px) {
     .skillBarText>p {
         font-size: 2vw;
@@ -62,7 +64,7 @@
         width: 2.5rem;
     }
 
-    .skillBarText>h2 {
+    .skillBarText>h5 {
         font-size: 5vw;
     }
 }
