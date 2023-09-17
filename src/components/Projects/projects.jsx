@@ -3,6 +3,7 @@ import './projects.css';
 import project1 from '../../assets/personal_web.png';
 import project2 from '../../assets/spotify.png';
 import project3 from '../../assets/pyramid.png';
+import MUI from '@mui/material';
 
 const Projects = () => {
   return (
@@ -13,8 +14,18 @@ const Projects = () => {
             <div className='projectBar'>
             <   img src={project1} alt="project1" className="projectImg" />
                 <div>
-                    <h1>Personal Project | HTLM, CSS, JavaScrip, Reactjs |<a href="https://github.com/HuyTran72/My_Web_React"> Github</a> </h1>
-                    <p>Show all my resume</p>
+                    <h1>Personal Website | HTLM, CSS, JavaScrip, Reactjs |<a href="https://github.com/HuyTran72/My_Web_React"> GitHub</a> </h1>
+                    <ul>
+                        <li>
+                            Using HTML
+                        </li>
+                        <li>
+                            Using CSS
+                        </li>
+                        <li>
+                            By React
+                        </li>
+                    </ul>
                 </div>
             </div>
                 
@@ -22,8 +33,12 @@ const Projects = () => {
             <div className='projectBar'>
                 <img src={project2} alt="project2" className="projectImg" />
                 <div>
-                    <h1>Sportify App | Java | <a href="https://github.com/HuyTran72/Sportify_App"> Github</a></h1>
-                    <p>Build an app run the music</p>
+                    <h1>Sportify App | Java | <a href="https://github.com/HuyTran72/Sportify_App"> GitHub</a></h1>
+                    <ul>
+                        <li>Build an app music</li>
+                        <li>Play/Stop/Next/Previous Song</li>
+                        <li>Show the list when finding</li>
+                    </ul>
                 </div> 
             </div>
                  
@@ -31,8 +46,12 @@ const Projects = () => {
             <div className='projectBar'>
                 <img src={project3} alt="project3" className="projectImg" />
                 <div>
-                    <h1>Egyptian Pyramids App | Java | <a href="https://github.com/HuyTran72/Nassef_Pyramids_App"> Github</a></h1>
-                    <p>Use Java to build Pyramids includes the list of Paraong's information</p>
+                    <h1>Egyptian Pyramids App | Java | <a href="https://github.com/HuyTran72/Nassef_Pyramids_App"> GitHub</a></h1>
+                    <ul>
+                        <li>Use Java to build Pyramids includes the list of Paraong's information</li>
+                        <li></li>
+                        <li></li>
+                    </ul>
                 </div>  
             </div>
                     

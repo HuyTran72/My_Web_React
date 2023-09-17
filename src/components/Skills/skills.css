@@ -11,11 +11,10 @@
 }
 
 .skillTitle {
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 600;
     padding-top: 3rem;
     margin-bottom: 1.5rem;
-    background-color: rgb(67, 226, 43);
 }
 
 .skillDesc {

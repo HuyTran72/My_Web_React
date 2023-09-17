@@ -11,6 +11,7 @@ const Navbar = () => {
             <div className='desktopMenu' >
                 <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-100} duration={500} className="desktopMenuListItem">About</Link>
                 <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-85} duration={500} className="desktopMenuListItem">Skills</Link>
+                <Link activeClass='active' to='experience' spy={true} smooth={true} offset={-85} duration={500} className="desktopMenuListItem">Work Experience</Link>
                 <Link activeClass='active' to='projects' spy={true} smooth={true} offset={-85} duration={500} className="desktopMenuListItem">Projects</Link>
                 <Link activeClass='active' to='contact' spy={true} smooth={true} offset={-85} duration={500} className="desktopMenuListItem">Contact Me</Link>
             </div>
