@@ -11,9 +11,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 const Contact = () => {
   return (
-    <Container>
-      <Row>
-        <Col>
+    
         <section id="contactPage">
         <div id="contact">
             <h1 className='contactPageTitle'>CONTACT ME</h1>
@@ -33,9 +31,8 @@ const Contact = () => {
             </form>
         </div>
         </section>
-        </Col>
-      </Row>
-    </Container>
+        
+    
     
   )
 }
