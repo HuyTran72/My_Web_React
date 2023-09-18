@@ -1,22 +1,24 @@
 {
   "files": {
-    "main.css": "/My_Web_React/static/css/main.56ef1ed7.css",
-    "main.js": "/My_Web_React/static/js/main.eaf2707b.js",
+    "main.css": "/My_Web_React/static/css/main.ca41eee4.css",
+    "main.js": "/My_Web_React/static/js/main.5d69f3e2.js",
     "static/media/linkedin.png": "/My_Web_React/static/media/linkedin.ea423f5cb6889457c312.png",
     "static/media/gg1.png": "/My_Web_React/static/media/gg1.d8dd1d155a3a7ee9d5d9.png",
+    "static/media/research.png": "/My_Web_React/static/media/research.49ca4fd805c3b268ae64.png",
     "static/media/spotify.png": "/My_Web_React/static/media/spotify.0b5abb87b1f1b06f737b.png",
     "static/media/github.png": "/My_Web_React/static/media/github.544cd6f7ca0ddb561e4e.png",
     "static/media/pyramid.png": "/My_Web_React/static/media/pyramid.b04387e8ba3f96a6c8c0.png",
     "static/media/personal_web.png": "/My_Web_React/static/media/personal_web.e4d64ce9093e6231dbc6.png",
     "static/media/logo1.png": "/My_Web_React/static/media/logo1.3ebe8f6e9bfa6f4af4ce.png",
+    "static/media/tutor.png": "/My_Web_React/static/media/tutor.9e0c07e9c2b4686adb9f.png",
     "static/media/ui-design.png": "/My_Web_React/static/media/ui-design.c4acd455fc2040eddcc8.png",
     "static/media/instagram.png": "/My_Web_React/static/media/instagram.0bcd1dcb7d853c327af7.png",
     "index.html": "/My_Web_React/index.html",
-    "main.56ef1ed7.css.map": "/My_Web_React/static/css/main.56ef1ed7.css.map",
-    "main.eaf2707b.js.map": "/My_Web_React/static/js/main.eaf2707b.js.map"
+    "main.ca41eee4.css.map": "/My_Web_React/static/css/main.ca41eee4.css.map",
+    "main.5d69f3e2.js.map": "/My_Web_React/static/js/main.5d69f3e2.js.map"
   },
   "entrypoints": [
-    "static/css/main.56ef1ed7.css",
-    "static/js/main.eaf2707b.js"
+    "static/css/main.ca41eee4.css",
+    "static/js/main.5d69f3e2.js"
   ]
 }
