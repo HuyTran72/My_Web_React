@@ -20,6 +20,7 @@ function App() {
         <Navbar /> 
         <Intro />
         <Skills />
+        <Experience />
         <Projects />
         <Contact />
         <Footer />
