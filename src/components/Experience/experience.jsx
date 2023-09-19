@@ -19,9 +19,8 @@ const Experience = () => {
                                 <div>
                                     <h5>Computer and Math Tutor</h5>
                                         <ul>
-                                            <li>Worked in the Tutoring Center to assisted over 100 students in Math, Java, Data and Algorithm</li>
-                                            <li>Using CSS</li>
-                                            <li>By React</li>
+                                            <li>Worked in the Tutoring Center to help more than 100 students by achieving over 95% in Algorith, Concepts, Fundamentals(Java and Python), and Math(Calculus, Discrete, Linear)</li>
+                                            <li>Support the Coordinator to manage the tutor in making schedules or appointments for students, and organizing the meetings</li>
                                         </ul>
                                 </div>
                         </div>

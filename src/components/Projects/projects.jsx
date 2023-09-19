@@ -21,9 +21,8 @@ const Projects = () => {
                                 <div>
                                     <h5> <a href="https://huytran72.github.io/My_Web_React/">Personal Website </a>| HTLM, CSS, JavaScrip, Reactjs |<a href="https://github.com/HuyTran72/My_Web_React"> GitHub</a> </h5>
                                         <ul>
-                                            <li>Using HTML</li>
-                                            <li>Using CSS</li>
-                                            <li>By React</li>
+                                            <li>A personal website involves using React, a popular JavaScript library for building user interfaces to design and develop the website's front-end</li>
+                                            <li>The platform created and maintained to showcase my personal information, skills, projects, and achievements based on a modern, interactive, and visually appealing online presence</li>
                                         </ul>
                                 </div>
                         </div>
@@ -46,9 +45,8 @@ const Projects = () => {
                             <div>
                                 <h5>Egyptian Pyramids App | Java | <a href="https://github.com/HuyTran72/Nassef_Pyramids_App"> GitHub</a></h5>
                                 <ul>
-                                    <li>Use Java to build Pyramids includes the list of Paraong's information</li>
-                                    <li></li>
-                                    <li></li>
+                                    <li>Displayed information for a specific Egyptian pharaoh by asking the user for a pyramid ID number that the contributors associated with them</li>
+                                    <li>Reports a list of requested pyramids without any duplicates. Displays all information such as contributor’s name, gold, and total contribution for each pharaoh</li>
                                 </ul>
                             </div>  
                         </div>
